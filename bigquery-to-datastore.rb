@@ -10,7 +10,7 @@ class BigqueryToDatastore < Formula
   url "https://github.com/yu-iskw/bigquery-to-datastore/archive/0.4.1.tar.gz"
   sha256 "d3a03f071c72ab18ea0fd71a57d92b2afb647854ccc6bfbfa929a84797067d14"
 
-  depends_on :java
+  depends_on :java => "1.8"
   depends_on "maven"
 
   def install

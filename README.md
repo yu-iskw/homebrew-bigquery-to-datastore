@@ -4,7 +4,8 @@ This repository is used for install [yu-iskw/bigquery-to-datastore](https://gith
 
 ## Requirements
 - [Homebrew](https://docs.brew.sh/).
-- Java 1.8+
+- Java 1.8
+- Maven
 
 ## How to install
 
