@@ -7,8 +7,8 @@
 class BigqueryToDatastore < Formula
   desc "Export a whole BigQuery table to Google Datastore with Apache Beam/Google Dataflow"
   homepage "https://github.com/yu-iskw/bigquery-to-datastore"
-  url "https://github.com/yu-iskw/bigquery-to-datastore/archive/0.5.0.tar.gz"
-  sha256 "a43755d75e749ab124ab466b4f5f4aac3067d96c7515959acb69d369dcc05a53"
+  url "https://github.com/yu-iskw/bigquery-to-datastore/archive/0.5.1.tar.gz"
+  sha256 "01d71603e24d4a777fdb0fa773133593a74840dc46b3203e400f7cb0e2f6cbb7"
 
   depends_on :java => "1.8"
   depends_on "maven"
